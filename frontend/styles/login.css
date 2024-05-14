@@ -1,0 +1,4 @@
+.login_button_group {
+    flex-direction: row;
+    gap: 30px;
+  }

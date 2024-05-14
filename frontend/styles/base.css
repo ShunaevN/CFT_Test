@@ -1,0 +1,19 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f0f0;
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no,
+                                 initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Employee Salary App</title>
+  <link rel="icon" type="image/x-icon" href="../static/images/favicon.png"/>
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="stylesheet" href="../styles/login.css" />
+  <link rel="stylesheet" href="../styles/base.css" />
+  <script type="module" defer src="../scripts/login.js"></script>
+</head>
+<body class="page">
+  <header class="header page__section"></header>
+  <main class="content">
+    <h3 class="title">Войти</h3>
+    <form class="entrance__form form" name="edit-profile1" novalidate>
+        <input type="email" name="email" id="email-input" class="input"
+               placeholder="email" required minlength="5" maxlength="20"
+        >
+        <input type="password" name="password" id="password-input" class="input"
+               placeholder="Пароль" required minlength="8" maxlength="20"
+        >
+        <div class="button_group login_button_group">
+          <button type="submit" class="button intrance_button">Войти</button>
+          <button class="button back_button">Назад</button>
+        </div>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+.content {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    padding-left: 20px;
+	margin: 10px;
+	border: none;
+}
+
+.about_user {
+    display: none;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.about_user_addition_info {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 30px;
+    gap: 5px;
+    color: rgb(135, 14, 199);
+    font-weight: 700;
+}
+
+.user_picture {
+    display: block;
+    width: 15vw;
+    height: 15vw;
+}
